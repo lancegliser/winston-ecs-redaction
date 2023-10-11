@@ -52,6 +52,7 @@
     "@types/express": "^4.17.17",
     "@types/express-session": "^1.17.7",
     "@types/express-winston": "^4.0.0",
+    "@types/fast-redact": "^3.0.2",
     "@types/jest": "^29.5.3",
     "@types/lodash.truncate": "^4.4.7",
     "@types/luxon": "^3.3.0",
