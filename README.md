@@ -4,7 +4,15 @@
 
 ## Upstream
 
-Created from [node-express-apollo-graphql](https://github.com/lancegliser/node-express-apollo-graphql). 
+Created from [node-express-apollo-graphql](https://github.com/lancegliser/node-express-apollo-graphql).
+
+## Local packages
+
+Installed `winston-redact` from 
+```
+git clone -b trentm/winston-redact https://github.com/elastic/ecs-logging-nodejs.git
+```
+
 
 ## GraphQL Playground
 

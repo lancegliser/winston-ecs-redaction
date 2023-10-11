@@ -21,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.7.5",
+    "@elastic/ecs-winston-format": "file:../../trentm/ecs-logging-nodejs/loggers/winston/elastic-ecs-winston-format-1.0.0.tgz",
     "@graphql-tools/load-files": "^7.0.0",
     "@graphql-tools/schema": "^10.0.0",
     "@graphql-tools/utils": "^10.0.3",
