@@ -2,6 +2,10 @@
 
 > Provides a working API to expand from for initial development
 
+## Upstream
+
+Created from [node-express-apollo-graphql](https://github.com/lancegliser/node-express-apollo-graphql). 
+
 ## GraphQL Playground
 
 Once server is running (`npm run-script dev:watch`)
