@@ -24,11 +24,15 @@ const system: SystemResolvers = {
     UI_BASE_URL: process.env.UI_BASE_URL,
   }),
   config: (_, args, context) => {
+    const object = {
+      value: context.req,
+    };
+    context.logger.info("Reference object", { object });
+
     return {
       timestamp: new Date().toISOString(),
       loginUrl: getAuthLoginUrl(context.req),
       logoutUrl: getAuthLogoutUrl(context.req),
-      sampleGroupPk: "",
     };
   },
 };
